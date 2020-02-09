@@ -32,7 +32,7 @@ class AlignFieldForm(forms.Form):
     your_email = forms.EmailField(label='your email', max_length=200)
 
 class TreeForm(forms.Form):
-    file_field = forms.FileField(label = 'Aligned Sequences (Clustal, Fasta, MSF')
+    file_field = forms.FileField(label = 'Aligned Sequences (Clustal, Fasta, MSF)')
     your_email = forms.EmailField(label='your email', max_length=200)
 
 
